@@ -3,8 +3,12 @@ if(typeof jQuery === undefined){
 }
 (function ( $ ) {
  
-    $.fn.sapphire = function() {
-        
+    $.fn.slider = function(options,images) {
+        var settings = $.extend({
+          slideCount: 4,
+          animationType:"none"
+          
+        },options)
     };
  
 }( jQuery ));
