@@ -6,8 +6,9 @@ if(typeof jQuery === undefined){
     $.fn.slider = function(options,images) {
         var settings = $.extend({
           slideCount: 4,
-          animationType:"none"
-          
+          animationType:"none",
+          slideDuration:2000,
+          sliderSize:1100
         },options)
     };
  
