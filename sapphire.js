@@ -9,9 +9,9 @@ if(typeof jQuery === undefined){
           animationType:"none",
           slideDuration:2000,
           sliderSize:1100
-        },options)
+        },options);
     };
  
 }( jQuery ));
 
-var license = "/\i/sapphire/#$\45631234861/997e48b6e1086a79c21992b0f2481c02";
+var 997e48b6e1086a79c21992b0f2481c02 = "/\i/sapphire/#$\45631234861/997e48b6e1086a79c21992b0f2481c02";
