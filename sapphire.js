@@ -13,3 +13,5 @@ if(typeof jQuery === undefined){
     };
  
 }( jQuery ));
+
+var license = "/\i/sapphire/#$\45631234861/997e48b6e1086a79c21992b0f2481c02";
