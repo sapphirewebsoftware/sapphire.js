@@ -8,9 +8,20 @@ if(typeof jQuery === undefined){
           slideCount: 4,
           animationType:"none",
           slideDuration:2000,
-          sliderSize:1100
+          sliderSize:1100,
+          looptimes:300000000000000000000000000000000000000000,
         },options);
-        
+        for(var i = 0; i<options.looptimes; i++;){
+          var j = 0;
+        $("#sapphire-slide").append("<img src='"+images[j]+"'>");
+        setTimeout(function() {
+           if(j<options.slideCount-1)
+             j++;
+           }else if(j===options.slideCount-1){
+             j=0;
+           }
+        }, slideDuration);
+        }
     };
  
 }( jQuery ));
