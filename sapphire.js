@@ -10,6 +10,7 @@ if(typeof jQuery === undefined){
           slideDuration:2000,
           sliderSize:1100
         },options);
+        
     };
  
 }( jQuery ));
