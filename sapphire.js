@@ -1,7 +1,11 @@
 if(window.jQuery === undefined){
     throw "jQuery is required for sapphire to work. Didn't you read the README?";
 }
-(function ( $ ) {
+
+
+var license = function(license){
+    if(license.match(/sapphirewebbuilding[a-z0-9]+/i)){
+        (function ( $ ) {
 
 $.fn.slider = (function(options,images) {
     var settings = $.extend({
@@ -25,5 +29,5 @@ $.fn.slider = (function(options,images) {
 });
 
 })( jQuery );
-
-var 997e48b6e1086a79c21992b0f2481c02 = "/\i/sapphire/#$\45631234861/997e48b6e1086a79c21992b0f2481c02";
+    }
+};
