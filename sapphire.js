@@ -3,9 +3,7 @@ if(window.jQuery === undefined){
 }
 
 
-var license = function(license){
-    if(license.match(/sapphirewebbuilding[a-z0-9]+/i)){
-        (function ( $ ) {
+(function ( $ ) {
 
 $.fn.slider = (function(options,images) {
     var settings = $.extend({
@@ -29,5 +27,4 @@ $.fn.slider = (function(options,images) {
 });
 
 })( jQuery );
-    }
-};
+
